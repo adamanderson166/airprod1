@@ -6,6 +6,7 @@ import SignUp from "./components/SignUp";
 import VideoPlayer from "./components/VideoPlayer";
 import sabeMovie from "./assets/sabeMovie.mp4";
 import "./App.css";
+import VoiceMemo from './components/VoiceMemo';
 
 const App = () => {
   return (
@@ -17,8 +18,13 @@ const App = () => {
       <div className="app">
         <Hero />
         <VideoPlayer videoSrc={sabeMovie} fileType="mp4" /> 
+        <VoiceMemo />
         <Demo />
         <SignUp />
+      </div>
+
+      <div className="main">
+        <div className="gradient" />
       </div>
     </main>
   );

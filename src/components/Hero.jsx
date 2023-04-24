@@ -15,7 +15,7 @@ const Hero = () => {
           }
           className='black_btn'
         >
-          GitHub
+          Premium
         </button>
       </nav>
 
